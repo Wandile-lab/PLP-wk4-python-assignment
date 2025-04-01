@@ -11,7 +11,7 @@ else:
     modifyData = data.upper()
     modify_txt= "modified_" + prompt 
 
-with open("word.txt", "w") as file:
+with open("modify.txt", "w") as file:
     file.write(modifyData)
     print(data)
 
